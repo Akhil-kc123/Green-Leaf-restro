@@ -1,0 +1,402 @@
+
+
+#div1{
+    margin: 0px
+    background-color:#1e1f1e;
+    width: 100%;
+    height: 80%;
+    background-image:linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30)),url(img.jpg);
+    background-size: 80%;
+    background-position: bottom;
+    
+}
+
+#layer1{
+width: 85%;
+margin-left: 5px;
+padding-left: 5px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+   
+}
+.logo{
+
+    width:180px;  
+    height: 26px;
+    cursor: pointer;
+    position:relative;
+    left:5px;
+}
+#layer1 ul{
+    
+    position:relative;
+    left: 190px;
+}
+
+
+#layer1 ul li{
+    list-style: none;
+    display: inline;
+    padding-left: 20px;
+
+}
+#layer1 ul li a{
+    text-decoration: none;
+    color:white;
+    
+    
+}
+
+
+
+
+
+hr{
+  border:none;
+  border-top:2px dashed white;
+  color:white;
+  height:1px;
+  width:100%;
+  position: relative;
+    bottom: 3px;
+    top: 0;
+}
+#div2 ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    left:600px;
+    font-family: ariel;
+
+}
+#div2 ul li a{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+#div3 h3{
+    width: 100%;
+    position: absolute;
+    top:28%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    font-size: 44px;
+    font-family: 'Sacramento', cursive;
+}
+#div3 h1{
+    width: 100%;
+    position: absolute;
+    top:40%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.col{
+    color: white; 
+}
+#div4 button{
+    width: 150px;
+    height:50px;
+    text-align: center;
+    margin: 20px 10px;
+    border: 2px solid #009688;
+    background: white;
+    color:green;
+    cursor: pointer;
+    position: absolute;
+    top:60%;
+    left:43%;
+    transform: translateY(-50%);
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: .3s;
+    
+}
+#div4 button:hover{
+    background:lightgreen;
+    border: 2px solid green;
+    
+}
+
+.burger1{
+     width:200;
+    height:200;  
+    position: relative;
+    left:250px;
+    top:50px;
+    
+}
+.burger2{
+    width:200;
+    height:200;    
+     position: relative;
+    left:250px;
+    bottom:30px;
+   
+}
+
+.para1{
+   
+    
+     position: relative;
+    left:710px;
+    bottom:170px;
+    
+}
+.para2{
+    
+    position: relative;
+    left:710px;
+    bottom:250px;
+     
+}
+.card-text{
+    width:650px;
+    height:100px;
+    font-size:23px;
+    line-height: 30px;
+    
+}
+
+.pl-2{
+    
+    padding: 0 25px;
+    display: inline;
+    
+}
+.cal-panel span{
+    position: relative;
+    right:22px;
+     
+}
+.card-head{
+    font-size:21px;
+    font-family: 'Montserrat', sans-serif;
+    color:mediumseagreen;
+    
+}
+.part-button{
+    
+     width: 100px;
+    height:35px;
+    text-align: center;
+    margin: 20px 10px;
+    border: 1px solid green;
+    background:white;
+    color:white;
+    cursor: pointer;
+    color:green;
+    transition: 0.3s;
+}
+.part-button:hover{
+    background: green;
+    color:white;
+    
+    
+}
+
+
+
+
+
+footer{
+    color: white;
+}
+.upper-footer{
+    display: flex;
+    background-color: #12a84e;
+    align-items: center;
+    padding:0px 80px;
+}
+.opening-hours{
+    width: 25%;
+    font-weight: bold;
+}
+.opening-days{
+    padding: 30px 0px;
+    display: flex;
+}
+.opening-days >div{
+    text-align: center;
+    padding: 4px 16px; 
+}
+.hours{
+    padding-top: 20px;
+    font-size: 14px;
+}
+.vertical-line{
+    border-left: 1px solid white;
+    width: 1px;
+    padding: 0px !important;
+}
+.middle-footer{
+    background-color: #2a2b2b;
+    padding: 50px 80px;
+    display: flex;
+    font-size: 14px;
+}
+.middle-footer-list > h2{
+    color: #12a84e;
+}
+.middle-footer-list > ul{
+    margin-top: 40px;
+    list-style: none;
+    
+}
+.middle-footer-list ul li a{
+     text-decoration: none;
+    color:white;
+
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.middle-footer-list h2{
+    position: relative;
+    left:38px;
+    
+    
+}
+.middle-footer-list-2 ul li a{
+    text-decoration: none;
+    color:white;
+
+    font-family: 'Montserrat', sans-serif;
+      
+}
+
+.middle-footer-list-2 h2{
+    position: relative;
+    left:38px;
+    
+    
+    
+}
+
+
+.mid-1-list  i{
+    color: #12a84e;
+    margin-right: 20px;
+}
+.mid-1-list{
+    margin: 10px 0px;
+}
+h2{
+    font-size:20px;
+}
+.middle-footer-list-2{
+    margin-left: 40px;
+}
+.middle-footer-list-2 > h2{
+    color: #12a84e;
+}
+.middle-footer-list-2 > ul{
+    margin-top: 40px;
+    list-style: none;
+    padding-right: 10px;
+    max-width: max-content;
+}
+.middle-footer-list-3{
+    margin-left: 320px;
+}
+.middle-footer-list-3 >h2{
+    color: #12a84e;
+}
+.middle-footer-list-3 > p{
+    margin-top: 34px;
+    margin-bottom: 10px;
+}
+
+.middle-footer-list-3 form input{
+    margin: 10px 0px;
+    height: 40px;
+    width: 260px;
+    font-size: 16px ;
+    color: black;
+    outline:none;
+    outline-width: 0px;
+    padding: 0px 5px;
+}
+.middle-footer-list-3 form button{
+    margin:10px 0px;
+    height: 40px;
+    width: 270px;
+    background-color: #12a84e;
+    border: none;
+    color: white;
+    font-size: 16px ;
+}
+.lower-footer{
+    padding: 10px;
+    background-color:#2a2b2b;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@media screen and (max-width:1005px) {
+    .upper-nav{
+        flex-direction: column;
+    }
+    .lower-nav{
+        flex-direction: column;
+    }
+    .blog > img{
+        height:100%;
+        width: 40%;
+    }
+    footer{
+        justify-content: center;
+        align-items: center;
+    }
+    .upper-footer{
+        flex-direction: column;
+    }
+    .middle-footer{
+        flex-direction: column;
+    }
+    .middle-footer-list,
+    .middle-footer-list-2,
+    .middle-footer-list-3{
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+
+html,body{
+    width:100%;
+    height:100%;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
